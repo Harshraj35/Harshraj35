@@ -1,21 +1,7 @@
-import time
+def multiply(p1, p2):
+    return p1 * p2
 
-def cache(func):
-    cache_value = {}
-    print(cache_value)
-    def wrapper(*args):
-        if args in cache_value:
-            return cache_value[args]
-        result = func(*args)
-        cache_value[args] = result
-        return result
-    return wrapper
 
-@cache
-def long_running_function(a, b):
-    time.sleep(4)
-    return a + b
-
-print(long_running_function(2, 3))
-print(long_running_function(2, 3))
-print(long_running_function(4, 3))
+print(multiply(5, 5))
+print(multiply('a', 6))
+print(multiply(5, 'a'))
