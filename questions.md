@@ -1,10 +1,10 @@
-1. basics function syntax
-2. function with multiple parametars
-3. polymorphism in function
-4. function retuning multiple values
-5. default parameter value
-6. lambda function
-7. function on *args
-8. function on **kwargs
-9. generator function with yield
-10. recursive function
+1. baics class and object
+2. class method and self
+3. inheritance
+4. encapsulation
+5. polymorphism
+6. class variables
+7. static method
+8. property decorators
+9. class inheritance and isinstance() function
+10. multiple inheritance 
